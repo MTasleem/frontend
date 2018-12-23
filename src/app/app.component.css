@@ -1,0 +1,42 @@
+.top {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.left {
+    position: relative;
+    left: 0;
+    /* display: inline-block; */
+    width: 20%;
+    float: left;
+    border: 1px solid red;
+}
+
+.right {
+    position: relative;
+    /* right: 0; */
+    width: 20.6%;
+    border: 1px solid red;
+    float: left;
+}
+
+.bottom {
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.home {
+    display: inline-block;
+    width: 58%;
+    text-align: center;
+    border: 1px solid red;
+    float: left;
+}
