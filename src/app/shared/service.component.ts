@@ -8,6 +8,8 @@ import 'rxjs/add/operator/do';
 @Injectable()
 export class CommonService {
   public url = 'https://pacific-thicket-78881.herokuapp.com/api/';
+  // public url = 'http://localhost:8081/api/';
+  
   constructor(private http: Http) { }
 
   saveUser(user) {
